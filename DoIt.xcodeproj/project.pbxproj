@@ -15,6 +15,7 @@
 		4C423C411FF51531004E87FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C423C3F1FF51531004E87FD /* LaunchScreen.storyboard */; };
 		4C423C491FF5184B004E87FD /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C423C481FF5184B004E87FD /* Task.swift */; };
 		4C423C4B1FF52154004E87FD /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C423C4A1FF52154004E87FD /* CreateTaskViewController.swift */; };
+		4C423C4D1FF53C7C004E87FD /* CompleteTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C423C4C1FF53C7C004E87FD /* CompleteTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		4C423C421FF51531004E87FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C423C481FF5184B004E87FD /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		4C423C4A1FF52154004E87FD /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
+		4C423C4C1FF53C7C004E87FD /* CompleteTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				4C423C331FF51531004E87FD /* AppDelegate.swift */,
 				4C423C351FF51531004E87FD /* TasksViewController.swift */,
 				4C423C4A1FF52154004E87FD /* CreateTaskViewController.swift */,
+				4C423C4C1FF53C7C004E87FD /* CompleteTaskViewController.swift */,
 				4C423C481FF5184B004E87FD /* Task.swift */,
 				4C423C371FF51531004E87FD /* Main.storyboard */,
 				4C423C3D1FF51531004E87FD /* Assets.xcassets */,
@@ -147,6 +150,7 @@
 			files = (
 				4C423C491FF5184B004E87FD /* Task.swift in Sources */,
 				4C423C3C1FF51531004E87FD /* DoIt.xcdatamodeld in Sources */,
+				4C423C4D1FF53C7C004E87FD /* CompleteTaskViewController.swift in Sources */,
 				4C423C361FF51531004E87FD /* TasksViewController.swift in Sources */,
 				4C423C341FF51531004E87FD /* AppDelegate.swift in Sources */,
 				4C423C4B1FF52154004E87FD /* CreateTaskViewController.swift in Sources */,
