@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class TasksViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     
     var tasks : [Task] = []
@@ -51,6 +51,16 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         task3.important = false
         
         return [task1, task2, task3]
+    }
+    @IBAction func plusTapped(_ sender: Any) {
+        performSegue(withIdentifier: "addSegue", sender: nil)
+            
+        
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nextVC = segue.destination as! CreateTaskViewController
+        nextVC.previousVC = self
     }
 }
 
